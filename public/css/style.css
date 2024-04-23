@@ -1,0 +1,154 @@
+
+
+.main{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;;
+    width: 300px;
+    margin-top: 20px;
+   
+  }
+  .b1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+  
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  .logo{
+    height: 50px;
+    width: 50px;
+    float: left;
+  }
+  .linkdin{
+    float: right;
+    list-style: none;
+    color: aqua;
+    margin-top: 15px;
+    margin-right: 7px;
+  }
+  .card-container {
+    display: flex;
+    flex-wrap: nowrap; /* Ensure cards don't wrap to the next line */
+    overflow-x: auto; /* Allow horizontal scrolling if needed */
+    padding: 10px; /* Add padding for spacing */
+}
+
+.card {
+    width: 500px; /* Adjust the width of each card as needed */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px; /* Add margin between cards */
+    padding: 10px;
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card img {
+    max-width: 250px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.card h2 {
+    margin: 10px 0;
+}
+
+.card p {
+    margin: 10px 0;
+}
+
+.card a {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+/* Modal styles */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto; /* Center horizontally */
+    margin-top: 10%; /* Center vertically */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Close button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* Form styles */
+  .form-group {
+      margin-bottom: 20px;
+  }
+  
+  label {
+      display: block;
+      font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+      font-size: 16px;
+  }
+  
+  textarea {
+      height: 150px;
+  }
+  
+  .button-container {
+      text-align: center;
+  }
+  
+  button {
+      padding: 10px 20px;
+      background-color:burlywood;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+  }
+  
+  
